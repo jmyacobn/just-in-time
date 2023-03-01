@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/106957849/222237588-38a10f42-d02f-4b5a-a84f-7ca76e2ec3ad.png" width=10% height=10%>
-</div>
-
 # Just In Time News
 
 ## Project Overview
