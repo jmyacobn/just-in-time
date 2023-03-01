@@ -19,10 +19,11 @@
 ## Learning Goals
 
 ## Project Roadmap
-### [Trello Project Board](https://trello.com/b/5SAGqjAW/burger-of-the-day-project-board)
-### Just In Time Wireframe
+### Project Board
+[Trello Project Board](https://trello.com/b/5SAGqjAW/burger-of-the-day-project-board)
+### Wireframe
 ![JustInTimeWireFrame](https://user-images.githubusercontent.com/106957849/222238295-0cacf377-45e1-431f-98c4-5e73a08de501.png)
-### Just In Time Component Architecture Map
+### Component Architecture Map
 ![JustInTimeArchitectureComponentMap](https://user-images.githubusercontent.com/106957849/222238338-98e0b576-8bbe-4622-82d0-6e91b8caf3ec.png)
 
 ## Reflections
