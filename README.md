@@ -25,7 +25,7 @@
 [Trello Project Board](https://trello.com/b/B0iZOLso/just-in-time-project-board)
 
 ### Wireframe
-<img src="https://user-images.githubusercontent.com/106957849/222273281-27558ba2-d540-4b1b-bfdc-f5a92b830d47.png" width=80% height=80%>
+<img src="https://user-images.githubusercontent.com/106957849/222281010-aa83e461-6b21-4f69-a821-6336e5f98c79.png" width=80% height=80%>
 
 ### Component Architecture Map
 <img src="https://user-images.githubusercontent.com/106957849/222238338-98e0b576-8bbe-4622-82d0-6e91b8caf3ec.png" width=80% height=80%>
