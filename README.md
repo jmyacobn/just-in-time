@@ -22,7 +22,7 @@
 ## Project Roadmap
 
 ### Project Board
-[Trello Project Board](https://trello.com/b/5SAGqjAW/burger-of-the-day-project-board)
+[Trello Project Board](https://trello.com/b/B0iZOLso/just-in-time-project-board)
 
 ### Wireframe
 <img src="https://user-images.githubusercontent.com/106957849/222238295-0cacf377-45e1-431f-98c4-5e73a08de501.png" width=80% height=80%>
