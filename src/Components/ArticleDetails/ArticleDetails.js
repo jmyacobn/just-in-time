@@ -1,9 +1,14 @@
 import React from 'react'
+import NavBar from '../NavBar/NavBar'
 import "./ArticleDetails.css"
 
-const ArticleDetails = ({}) => {
+const ArticleDetails = ({singleArticle}) => {
+  console.log(singleArticle)
   return (
-    <div>ArticleDetails</div>
+    <div>
+      <NavBar />
+      <p>HELLO</p>
+    </div>
   )
 }
 

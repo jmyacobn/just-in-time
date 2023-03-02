@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Routes, Route} from 'react-router-dom'
-import NavBar from '../NavBar/NavBar.js'
 import ArticlesList from '../ArticlesList/ArticlesList.js'
-import ArticleCard from '../ArticleCard/ArticleCard.js'
 import ArticleDetails from '../ArticleDetails/ArticleDetails.js'
 import "./App.css"
 import { getArticles } from '../../APIcalls.js'
@@ -11,6 +9,7 @@ const App = () => {
 
   const [articles, setArticles] = useState([])
   const [category, setCategory] = useState("home")
+  const [singleArticle, setSingleArticle] = useState({})
   const [error, setError] = useState("")
 
   useEffect(() => {
@@ -22,14 +21,14 @@ const App = () => {
   }, [])
 
   const viewArticleDetails = (id) => {
-    console.log("hello", id)
+    return setSingleArticle(articles.find(article => (id === article.uri)))
   }
-
+  
   return (
     <div>
       <Routes>
         <Route exact path="/" element={<ArticlesList articles={articles} setArticles={setArticles} viewArticleDetails={viewArticleDetails}/>} />
-        <Route exact path="/details/:id" element={<ArticleDetails />} />
+        <Route exact path="/details/:id" element={<ArticleDetails singleArticle={singleArticle}/>} />
       </Routes>
     </div>
   )
