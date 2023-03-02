@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
-import NavBar from '../NavBar/NavBar'
 import NYTlogo from '../../Assets/NYTlogo.jpeg'
 import "./ArticleDetails.css"
 
@@ -11,11 +10,12 @@ const ArticleDetails = ({articles}) => {
   useEffect(() => {
     setSingleArticle(articles.find(article => (id === article.created_date)))
   }, [])
+
+  console.log(singleArticle)
   
   const image = singleArticle.multimedia ? singleArticle.multimedia[1].url : NYTlogo
   return (
     <div>
-      <NavBar />
       <div className='details-container'>
         <h2>{singleArticle.title}</h2>
         <h3>{singleArticle.byline}</h3>
