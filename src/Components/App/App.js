@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar.js'
 import ArticlesList from '../ArticlesList/ArticlesList.js'
 import ArticleDetails from '../ArticleDetails/ArticleDetails.js'
 import "./App.css"
+import { getArticles } from '../../APIcalls.js'
 
 const App = () => {
 
@@ -11,12 +12,9 @@ const App = () => {
   const [category, setCategory] = useState("home")
 
   useEffect(() => {
-    fetch(`https://api.nytimes.com/svc/topstories/v2/${category}.json?api-key=NSEAxjEQ9oAZ3Bvgkxsr6N68vVSDAkG9`, {
-      method: 'GET'
-    })
-    .then(response => response.json())
+    getArticles(category)
     .then(data => setArticles(data.results))
-  }, [])
+  })
 
   return (
     <div>
