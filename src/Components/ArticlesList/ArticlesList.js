@@ -3,7 +3,7 @@ import NavBar from '../NavBar/NavBar.js'
 import ArticleCard from '../ArticleCard/ArticleCard.js'
 import "./ArticlesList.css"
 
-const ArticlesList = ({articles}) => {
+const ArticlesList = ({articles, viewArticleDetails}) => {
 
   const eachArticle = articles.map(article => {
     return (
@@ -12,6 +12,7 @@ const ArticlesList = ({articles}) => {
         image={article.multimedia[2].url}
         title={article.title}
         author={article.byline}
+        viewArticleDetails={viewArticleDetails}
       />
     )
   })
