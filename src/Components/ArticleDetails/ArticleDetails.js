@@ -5,13 +5,13 @@ import NYTlogo from '../../Assets/NYTlogo.jpeg'
 import "./ArticleDetails.css"
 
 const ArticleDetails = ({articles}) => {
-  const [singleArticle, setSingleArticle] = useState({})
   const {id} = useParams()
- 
+  const [singleArticle, setSingleArticle] = useState({})
+
   useEffect(() => {
     setSingleArticle(articles.find(article => (id === article.created_date)))
   }, [])
-
+  
   const image = singleArticle.multimedia ? singleArticle.multimedia[1].url : NYTlogo
   return (
     <div>

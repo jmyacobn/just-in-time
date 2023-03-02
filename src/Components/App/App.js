@@ -22,7 +22,7 @@ const App = () => {
   return (
       <Routes>
         <Route exact path="/" element={<ArticlesList articles={articles} setArticles={setArticles} />} />
-        <Route path="/details/:id" element={<ArticleDetails articles={articles}/>} />
+        <Route path="/details/:id" element={<ArticleDetails articles={articles} />} />
       </Routes>
   )
 }

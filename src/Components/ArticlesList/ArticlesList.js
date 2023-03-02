@@ -5,7 +5,6 @@ import "./ArticlesList.css"
 import NYTlogo from '../../Assets/NYTlogo.jpeg'
 
 const ArticlesList = ({articles, viewArticleDetails}) => {
-
   const eachArticle = articles.map(article => {
     const image = article.multimedia ? article.multimedia[2].url : NYTlogo
     return (

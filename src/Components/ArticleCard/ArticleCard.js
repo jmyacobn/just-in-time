@@ -7,7 +7,6 @@ const ArticleCard = ({id, image, title, author}) => {
     <Link
     to={`/details/${id}`}
     className="article-details"
-    key={title}
     >
       <div className='article-card' key={id}>
         <div className='article-img'>
