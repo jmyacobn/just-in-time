@@ -19,7 +19,7 @@ const ArticleDetails = ({articles}) => {
       <div className='details-container'>
         <h2>{singleArticle.title}</h2>
         <h3>{singleArticle.byline}</h3>
-        <h4><a href={singleArticle.url} target="_blank" rel="noopener noreferrer">Read This Article</a></h4>
+        <h4><a href={singleArticle.url}>Read This Article</a></h4>
         <img className="detail-image" src={image} alt="singleArticle.title"></img>
         <h4>Last updated: {singleArticle.updated_date}</h4>
         <h4>{singleArticle.abstract}</h4>
