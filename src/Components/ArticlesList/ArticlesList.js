@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar.js'
 import ArticleCard from '../ArticleCard/ArticleCard.js'
 import "./ArticlesList.css"
 import NYTlogo from '../../Assets/NYTlogo.jpeg'
@@ -20,7 +19,6 @@ const ArticlesList = ({articles, viewArticleDetails}) => {
 
   return (
     <div>
-      <NavBar />
       <div className="article-container">
         {eachArticle}
       </div>
