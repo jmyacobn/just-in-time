@@ -28,3 +28,12 @@
   display: flex;
   justify-content: space-around;
 }
+
+.nav-link {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.active {
+  color: #fca311;
+}

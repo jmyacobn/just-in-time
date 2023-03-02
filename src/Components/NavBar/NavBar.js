@@ -15,7 +15,7 @@ const NavBar = ({category, setCategory}) => {
             activeclassname="active"
             exact="true"
             onClick={()=> setCategory("home")}
-            to="/home"
+            to="/"
           >
             <p>HOME</p>
           </NavLink>
