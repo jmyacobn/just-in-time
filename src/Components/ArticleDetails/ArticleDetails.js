@@ -10,8 +10,6 @@ const ArticleDetails = ({articles}) => {
   useEffect(() => {
     setSingleArticle(articles.find(article => (id === article.created_date)))
   }, [])
-
-  console.log(singleArticle)
   
   const image = singleArticle.multimedia ? singleArticle.multimedia[1].url : NYTlogo
   return (

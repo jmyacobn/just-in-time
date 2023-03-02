@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {Routes, Route, useParams} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import ArticlesList from '../ArticlesList/ArticlesList.js'
 import ArticleDetails from '../ArticleDetails/ArticleDetails.js'
 import NavBar from '../NavBar/NavBar.js'
