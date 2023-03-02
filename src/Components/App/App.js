@@ -8,9 +8,10 @@ import "./App.css"
 const App = () => {
 
   const [articles, setArticles] = useState([])
+  const [category, setCategory] = useState("home")
 
   useEffect(() => {
-    fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=NSEAxjEQ9oAZ3Bvgkxsr6N68vVSDAkG9', {
+    fetch(`https://api.nytimes.com/svc/topstories/v2/${category}.json?api-key=NSEAxjEQ9oAZ3Bvgkxsr6N68vVSDAkG9`, {
       method: 'GET'
     })
     .then(response => response.json())
