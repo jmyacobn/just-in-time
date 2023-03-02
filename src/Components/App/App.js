@@ -10,10 +10,14 @@ const App = () => {
 
   const [articles, setArticles] = useState([])
   const [category, setCategory] = useState("home")
+  const [error, setError] = useState("")
 
   useEffect(() => {
     getArticles(category)
     .then(data => setArticles(data.results))
+    .catch((error) => {
+      setError('Oops, something went wrong. Please try again later.')
+    })
   })
 
   return (
