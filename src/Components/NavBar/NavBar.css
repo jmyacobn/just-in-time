@@ -13,6 +13,7 @@
 
 .categories-container {
   color:#ffffff;
+  font-size: 1.25em;
   display: flex;
   flex-direction: column;
   width: 80vw;
