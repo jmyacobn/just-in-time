@@ -1,17 +1,9 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import NavBar from '../NavBar/NavBar.js'
 import ArticleCard from '../ArticleCard/ArticleCard.js'
 import "./ArticlesList.css"
 
-const ArticlesList = ({articles, setArticles}) => {
-
-  useEffect(() => {
-    fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=NSEAxjEQ9oAZ3Bvgkxsr6N68vVSDAkG9', {
-      method: 'GET'
-    })
-    .then(response => response.json())
-    .then(data => setArticles(data.results))
-  }, [])
+const ArticlesList = ({articles}) => {
 
   const eachArticle = articles.map(article => {
     return (
