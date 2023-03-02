@@ -1,0 +1,29 @@
+.nav-container {
+  background-color: #14213d;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.categories-container {
+  color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.categories-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.categories-bottom {
+  display: flex;
+  justify-content: space-around;
+}
