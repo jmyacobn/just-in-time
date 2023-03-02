@@ -1,25 +1,19 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import NavBar from '../NavBar/NavBar.js'
 import ArticleCard from '../ArticleCard/ArticleCard.js'
 import "./ArticlesList.css"
+import NYTlogo from '../../Assets/NYTlogo.jpeg'
 
-const ArticlesList = ({articles, setArticles}) => {
-
-  useEffect(() => {
-    fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=NSEAxjEQ9oAZ3Bvgkxsr6N68vVSDAkG9', {
-      method: 'GET'
-    })
-    .then(response => response.json())
-    .then(data => setArticles(data.results))
-  }, [])
-
+const ArticlesList = ({articles, viewArticleDetails}) => {
   const eachArticle = articles.map(article => {
+    const image = article.multimedia ? article.multimedia[2].url : NYTlogo
     return (
       <ArticleCard
-        id={article.uri}
-        image={article.multimedia[2].url}
+        id={article.created_date}
+        image={image}
         title={article.title}
         author={article.byline}
+        viewArticleDetails={viewArticleDetails}
       />
     )
   })
