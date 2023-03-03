@@ -10,23 +10,28 @@ const App = () => {
   const [articles, setArticles] = useState([])
   const [category, setCategory] = useState("home")
   const [error, setError] = useState("")
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    setLoading(true)
     getArticles(category)
     .then(data => setArticles(data.results))
     .catch((error) => {
       setError('Oops, something went wrong. Please try again later.')
     })
+    .finally(() => setLoading(false))
   }, [category])
  
   return (
     <div>
-     <NavBar category={category} setCategory={setCategory}/>
+     <NavBar category={category} setCategory={setCategory} />
+      {!loading ? 
       <Routes>
         <Route exact path="/" element={<ArticlesList articles={articles} setArticles={setArticles} />} />
         <Route path="/:category" element={<ArticlesList articles={articles} />} />
         <Route path="/details/:id" element={<ArticleDetails articles={articles} />} />
-      </Routes>
+      </Routes> 
+      : <div>Loading...</div>}
     </div>
   )
 }
