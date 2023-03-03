@@ -35,7 +35,7 @@
 
 ## Contributors
   <p>Jennifer Yacoubian</p>
-  <img src="https://avatars.githubusercontent.com/u/106957849?v=4" width=30% height=30%>
+  <img src="https://avatars.githubusercontent.com/u/106957849?v=4" width=10% height=10%>
   <a href="https://github.com/jmyacobn" rel="nofollow noreferrer">
      <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
   </a><br>
