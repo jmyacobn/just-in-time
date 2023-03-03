@@ -30,6 +30,9 @@ Just In Time News is a news reader application that pulls articles from the [New
 ### Wireframe
 <img src="https://user-images.githubusercontent.com/106957849/222281314-78f279fd-3629-4aa2-bd09-81638af8ced4.png" width=70% height=70%>
 
+###Logo Attribution
+<a href="https://www.flaticon.com/free-icons/news-office" title="news office icons">News office icons created by Bima Pamungkas - Flaticon</a>
+
 ### Component Architecture Map
 <img src="https://user-images.githubusercontent.com/106957849/222281010-aa83e461-6b21-4f69-a821-6336e5f98c79.png" width=40% height=40%>
 
