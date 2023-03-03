@@ -1,10 +1,12 @@
 # Just In Time News
 
+### [Deploy Link](https://just-in-time-pi.vercel.app/)
+
 ## Project Overview
+Just In Time News is a news reader application that pulls articles from the [New York Times Top Stories API](https://developer.nytimes.com/docs/top-stories-product/1/overview). This project was intended to simulate a take-home challenge experince. We were given 8 hours to complete the MVP which included consuming a RESTful API, displaying a list of articles to users, allowing the user to filter or search by category, and giving the user a detailed view with additionaly information and access to full article. 
 
 ## Preview of Application
 
-## Deployed Site
 
 ## Tech Stack
 ![JavaScript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -12,12 +14,12 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Setup
-
-## Learning Goals
+* Clone down this repo to your local machine.
+* `cd` into the repository.
+* Run npm install to ensure you have all necessary depencdencies
 
 ## Project Roadmap
 
@@ -34,5 +36,12 @@
 
 ## Future Features
 
-## Contact
-Jennifer Yacoubian [GitHub](https://github.com/jmyacobn) | [LinkedIn](https://www.linkedin.com/in/jennifer-yacoubian/)
+## Contributors
+  <p>Jennifer Yacoubian</p>
+  <img src="https://avatars.githubusercontent.com/u/106957849?v=4" width=10% height=10%>
+  <a href="https://github.com/jmyacobn" rel="nofollow noreferrer">
+     <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+  </a><br>
+  <a href="https://www.linkedin.com/in/jennifer-yacoubian/" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+  </a>
