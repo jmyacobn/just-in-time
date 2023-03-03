@@ -35,6 +35,7 @@ Logo image from <a href="https://www.flaticon.com/free-icons/news-office" title=
 <img src="https://user-images.githubusercontent.com/106957849/222281010-aa83e461-6b21-4f69-a821-6336e5f98c79.png" width=40% height=40%>
 
 ## Reflections
+Looking back, I may have spent a little too much time in the planning phase. I went down several paths creating my component architecture map, ultimately settling on the simplest version which allowed for more modular, reusable components. One decision that I made early in the project was to filter using the different endpoints provided by the NYT API rather than using a filter function on the existing data. While this application had a simple MVP, I ran into some minor challenges when consuming data that did not have images or links to NYT articles. Given more time, I would have like to incorporate Cypress E2E testing and make my website responsive on mobile devices. If I had to do it again, I would have spent less time on design and styling and more time on testing and accessbility across devices. One of my greatest wins was properly implementing loading status such that my detailed article view persists across page refresh. One thing I want to explore further is using params to set state for my categories as an potential solution to a minor bug my site currently has. Overall, this was a fun take home challenge to build up and assess my fluency using the React framework. 
 
 ## Contributors
   <p>Jennifer Yacoubian</p>
