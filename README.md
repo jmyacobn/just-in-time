@@ -39,7 +39,7 @@
     <th>Jennifer Yacoubian</th>
   </tr>
   <tr>
-    <td><img src="https://avatars.githubusercontent.com/u/106957849?v=4" width=50% height=50%></td>
+    <td><img src="https://avatars.githubusercontent.com/u/106957849?v=4" width=50% height=50% align="center"></td>
   </tr>
   <tr>
     <td>
@@ -52,4 +52,3 @@
     </td>
   </tr>
 </table>
-Jennifer Yacoubian [GitHub](https://github.com/jmyacobn) | [LinkedIn](https://www.linkedin.com/in/jennifer-yacoubian/)
