@@ -11,10 +11,10 @@ const App = () => {
   const [category, setCategory] = useState("home")
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(true)
+  
   useEffect(()=> {
     fetchArticles()
   }, [category])
- 
  
   const fetchArticles = async () => {
     try {
