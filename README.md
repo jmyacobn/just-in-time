@@ -36,8 +36,6 @@ Logo image from <a href="https://www.flaticon.com/free-icons/news-office" title=
 
 ## Reflections
 
-## Future Features
-
 ## Contributors
   <p>Jennifer Yacoubian</p>
   <img src="https://avatars.githubusercontent.com/u/106957849?v=4" width=10% height=10%>
