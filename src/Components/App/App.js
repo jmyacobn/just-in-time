@@ -11,16 +11,22 @@ const App = () => {
   const [category, setCategory] = useState("home")
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    setLoading(true)
-    getArticles(category)
-    .then(data => setArticles(data.results))
-    .catch((error) => {
-      setError('Oops, something went wrong. Please try again later.')
-    })
-    .finally(() => setLoading(false))
+  useEffect(()=> {
+    fetchArticles()
   }, [category])
+ 
+ 
+  const fetchArticles = async () => {
+    try {
+      setLoading(true)
+      const articleResult = await getArticles(category)
+      setArticles(articleResult.results)
+    }
+    catch(error) {
+      setError('Oops, something went wrong. Please try again later.')
+    }
+    finally {setLoading(false)}
+  }
  
   return (
     <div>
