@@ -21,8 +21,8 @@ Logo image from <a href="https://www.flaticon.com/free-icons/news-office" title=
 ## Setup
 * Clone down this repo to your local machine
 * `cd` into the repository
-* Run npm install to ensure you have all necessary depencdencies
-* In order to run the application in your browser, run npm start
+* Run `npm install` to ensure you have all necessary depencdencies
+* In order to run the application in your browser, run `npm start`
 * You are ready to code!
 
 ## Project Roadmap
