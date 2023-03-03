@@ -6,7 +6,7 @@
 Just In Time News is a news reader application that pulls articles from the [New York Times Top Stories API](https://developer.nytimes.com/docs/top-stories-product/1/overview). This project was intended to simulate a take-home challenge experince. We were given 8 hours to complete the MVP which included consuming a RESTful API, displaying a list of articles to users, allowing the user to filter or search by category, and giving the user a detailed view with additionaly information and access to full article. 
 
 ## Preview of Application
-### Logo from <a href="https://www.flaticon.com/free-icons/news-office" title="news office icons">News office icons created by Bima Pamungkas - Flaticon</a>
+Logo image from <a href="https://www.flaticon.com/free-icons/news-office" title="news office icons">News office icons created by Bima Pamungkas - Flaticon</a>
 <img src="https://user-images.githubusercontent.com/106957849/222611781-61137c0d-bc08-4a94-b126-c464bfe25c00.png" width=60% height=60%>
 <img src="https://user-images.githubusercontent.com/106957849/222611835-d8ec5734-f63c-49f6-8e53-57e7dbc49a6a.png" width=60% height=60%>
 
