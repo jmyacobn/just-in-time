@@ -3,7 +3,7 @@
 ### [Deploy Link](https://just-in-time-pi.vercel.app/)
 
 ## Project Overview
-Just In Time News is a news reader application that pulls articles from the [New York Times Top Stories API](https://developer.nytimes.com/docs/top-stories-product/1/overview). This project was intended to simulate a take-home challenge experince. We were given 8 hours to complete the MVP which included consuming a RESTful API, displaying a list of articles to users, allowing the user to filter or search by category, and giving the user a detailed view with additionaly information and access to full article. 
+Just In Time News is a news reader application that pulls articles from the [New York Times Top Stories API](https://developer.nytimes.com/docs/top-stories-product/1/overview). This project was intended to simulate a take-home challenge experince. We were given 8 hours to complete the MVP which included consuming a RESTful API, displaying a list of articles to users, allowing the user to filter or search by category, and giving the user a detailed view with additional information and access to the NYT full article. 
 
 ## Preview of Application
 Logo image from <a href="https://www.flaticon.com/free-icons/news-office" title="news office icons">News office icons created by Bima Pamungkas - Flaticon</a>
