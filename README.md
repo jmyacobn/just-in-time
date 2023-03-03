@@ -33,5 +33,23 @@
 
 ## Future Features
 
-## Contact
+## Contributors
+<table>
+  <tr>
+    <th>Jennifer Yacoubian</th>
+  </tr>
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/u/106957849?v=4"></td>
+  </tr>
+  <tr>
+    <td>
+       <a href="https://github.com/jmyacobn" rel="nofollow noreferrer">
+          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+      </a><br>
+        <a href="https://www.linkedin.com/in/jennifer-yacoubian/" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+      </a>
+    </td>
+  </tr>
+</table>
 Jennifer Yacoubian [GitHub](https://github.com/jmyacobn) | [LinkedIn](https://www.linkedin.com/in/jennifer-yacoubian/)
